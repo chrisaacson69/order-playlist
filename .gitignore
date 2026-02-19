@@ -205,3 +205,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==============================
+# Project-specific exclusions
+# ==============================
+
+# Visual Studio IDE
+.vs/
+*.suo
+*.user
+*.pyproj
+*.sln
+
+# Additional virtual environment names
+env1/
+
+# Claude Code
+.claude/
+
+# Audio / media files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.wma
+*.aiff
+*.opus
+*.mp4
+*.avi
+*.mkv
